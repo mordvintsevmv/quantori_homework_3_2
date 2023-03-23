@@ -1,0 +1,32 @@
+.clock{
+    width: 30vw;
+}
+
+.clock__hand{
+    stroke: #EF3F3E;
+
+    transform-box: content-box;
+    transform-origin: bottom center;
+}
+
+#clock-face{
+    stroke: #EF3F3E;
+    fill: none;
+}
+
+#clock-hand-hour{
+    animation: hand-rotation 60s linear infinite;
+}
+
+#clock-hand-minute{
+    animation: hand-rotation 5s linear infinite;
+}
+
+@keyframes hand-rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
