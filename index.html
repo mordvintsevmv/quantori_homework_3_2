@@ -44,15 +44,33 @@
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
 
     <!--STYLES-->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/null.css" rel="stylesheet" type="text/css">
+    <link href="css/clock.css" rel="stylesheet" type="text/css">
 
     <title>Quantori Homework #3.2</title>
 </head>
 <body>
+
+<div class="screen-wrapper">
+
+        <svg class="clock" viewBox="0 0 100 100">
+
+            <circle class="clock__face" id="clock-face" cx="50" cy="50" r="48" stroke-width="4"/>
+
+            <line class="clock__hand" id="clock-hand-minute" x1="50" x2="50" y1="50" y2="15" stroke-linecap="round" stroke-width="4"/>
+
+            <line class="clock__hand" id="clock-hand-hour" x1="50" x2="50" y1="50" y2="25" stroke-linecap="round" stroke-width="4"/>
+
+        </svg>
+
+
+
+</div>
 
 </body>
 </html>
