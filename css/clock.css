@@ -9,7 +9,7 @@
 
 #clock-hand-hour{
     transform-origin: top center;
-    animation: hand-rotation 60s linear infinite;
+    animation: hand-rotation 60s  linear -1.25s infinite;
 }
 
 #clock-hand-minute{
