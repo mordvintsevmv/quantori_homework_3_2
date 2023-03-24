@@ -3,22 +3,17 @@
 }
 
 .clock__hand{
-    stroke: #EF3F3E;
-
     transform-box: fill-box;
-    transform-origin: bottom center;
 }
 
-#clock-face{
-    stroke: #EF3F3E;
-    fill: none;
-}
 
 #clock-hand-hour{
+    transform-origin: top center;
     animation: hand-rotation 60s linear infinite;
 }
 
 #clock-hand-minute{
+    transform-origin: left center;
     animation: hand-rotation 5s linear infinite;
 }
 
