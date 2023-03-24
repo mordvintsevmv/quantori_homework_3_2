@@ -61,41 +61,34 @@
 
 <div class="screen-wrapper">
 
-    <svg class="watch" id="watch" viewBox="-100 -100 200 200">
+    <svg xmlns="http://www.w3.org/2000/svg" id="watch" class="watch" version="1.1" viewBox="-100 -100 200 200">
 
         <defs>
-
-            <line id="watch-12-stroke" x1="0" y1="-85" x2="0" y2="-95" stroke-width="2" fill="white" stroke="white"/>
-
-            <line id="watch-60-stroke" x1="0" y1="-80" x2="0" y2="-85" stroke-width="2" fill="#333333"
-                  stroke="#333333"/>
-
+            <line id="watch-12-stroke" x1="0" x2="0" y1="-85" y2="-95" fill="white" stroke="white" stroke-width="2"/>
+            <line id="watch-60-stroke" x1="0" x2="0" y1="-80" y2="-85" fill="#333333" stroke="#333333" stroke-width="2"/>
         </defs>
 
-        <circle class="watch__face" r="98" cx="0" cy="0"/>
+        <circle r="98" class="watch__face"/>
 
-        <g class="watch__brand-text">
-            <text y="-55" fill="#C0C0C0" font-size="5px" text-anchor="middle" dominant-baseline="middle">CASIO</text>
-            <text y="-51" fill="#C0C0C0" font-size="3px" text-anchor="middle" dominant-baseline="middle">QUARTZ</text>
-            <text y="25" fill="#C0C0C0" font-size="3px" text-anchor="middle" dominant-baseline="middle">WATER RESIST
+        <g fill="#C0C0C0" class="watch__brand-text" dominant-baseline="middle" text-anchor="middle">
+            <text y="-55" font-size="5">CASIO</text>
+            <text y="-51" font-size="3">QUARTZ</text>
+            <text y="25" font-size="3">WATER RESIST
             </text>
         </g>
 
         <g class="watch__digital-time">
-            <rect x="-30" y="40" width="60" height="15" stroke="#383F42" stroke-width="1" fill="#383F42"/>
-            <text id="watch-digital-hm" x="-20" y="53" fill="#111111" font-size="16px">0:00</text>
-            <text id="watch-digital-seconds" x="15" y="53" fill="#111111" font-size="12px">00</text>
+            <rect width="60" height="15" x="-30" y="40" fill="#383F42" stroke="#383F42"/>
+            <text id="watch-digital-hm" x="-20" y="53" fill="#111111" font-size="16">19:4</text>
+            <text id="watch-digital-seconds" x="15" y="53" fill="#111111" font-size="12">20</text>
         </g>
 
-        <line class="watch__hand" id="watch-hand-hours" x1="0" y1="0" x2="0" y2="-30" stroke-width="4"/>
+        <line id="watch-hand-hours" x1="0" x2="0" y1="0" y2="-30" stroke-width="4" class="watch__hand"/>
+        <line id="watch-hand-minutes" x1="0" x2="0" y1="0" y2="-60" stroke-width="3" class="watch__hand"/>
+        <line id="watch-hand-seconds" x1="0" x2="0" y1="0" y2="-77" stroke-width="1" class="watch__hand"/>
 
-        <line class="watch__hand" id="watch-hand-minutes" x1="0" y1="0" x2="0" y2="-60" stroke-width="3"/>
-
-        <line class="watch__hand" id="watch-hand-seconds" x1="0" y1="0" x2="0" y2="-77" stroke-width="1"/>
-
-        <circle r="4" cx="0" cy="0" fill="#C0C0C0"/>
-
-        <circle r="1" cx="0" cy="0" fill="black"/>
+        <circle r="4" fill="#C0C0C0"/>
+        <circle r="1" fill="black"/>
 
     </svg>
 
