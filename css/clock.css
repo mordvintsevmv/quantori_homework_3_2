@@ -5,7 +5,7 @@
 .clock__hand{
     stroke: #EF3F3E;
 
-    transform-box: content-box;
+    transform-box: fill-box;
     transform-origin: bottom center;
 }
 
