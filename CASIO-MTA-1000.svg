@@ -16,9 +16,12 @@
         <text id="watch-digital-seconds" x="15" y="53" fill="#111" font-size="12">53</text>
     </g>
     <g fill="silver" stroke="silver" stroke-linecap="round">
-        <line id="watch-hand-hours" x1="0" x2="0" y1="0" y2="-30" stroke-width="4" class="watch__hand" transform="rotate(115 0 0)"/>
-        <line id="watch-hand-minutes" x1="0" x2="0" y1="0" y2="-60" stroke-width="3" class="watch__hand" transform="rotate(235 0 0)"/>
-        <line id="watch-hand-seconds" x1="0" x2="0" y1="0" y2="-77" stroke-width="1" class="watch__hand" transform="rotate(318 0 0)"/>
+        <line id="watch-hand-hours" x1="0" x2="0" y1="0" y2="-30" stroke-width="4" class="watch__hand"
+              transform="rotate(115 0 0)"/>
+        <line id="watch-hand-minutes" x1="0" x2="0" y1="0" y2="-60" stroke-width="3" class="watch__hand"
+              transform="rotate(235 0 0)"/>
+        <line id="watch-hand-seconds" x1="0" x2="0" y1="0" y2="-77" stroke-width="1" class="watch__hand"
+              transform="rotate(318 0 0)"/>
     </g>
     <circle r="4" fill="silver"/>
     <circle r="1"/>
