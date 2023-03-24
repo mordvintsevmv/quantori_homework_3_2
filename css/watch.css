@@ -1,4 +1,4 @@
-.clock {
+.watch {
     height: 400px;
     width: 400px;
 
@@ -9,38 +9,37 @@
 
     cursor: default;
 
-    font-family: sans-serif;
-
+    font-family: "eurostile-extended-bold", sans-serif;
 }
 
-.clock__face {
+.watch__face {
     fill: #222222;
     stroke: #C0C0C0;
     stroke-width: 3px;
 }
 
-.clock__hand {
+.watch__hand {
     stroke: #C0C0C0;
     stroke-linecap: round;
 }
 
-.clock__digital-time {
+.watch__digital-time {
     font-family: 'DS-Digital', sans-serif;
     font-weight: 700;
 
 }
 
 
-#clock-hand-hours {
+#watch-hand-hours {
 }
 
-#clock-hand-minutes {
+#watch-hand-minutes {
 }
 
-#clock-hand-seconds {
+#watch-hand-seconds {
 }
 
-@keyframes animate-clock-hand {
+@keyframes animate-watch-hand {
     from {
         transform: rotate(0deg);
     }

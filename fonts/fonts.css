@@ -25,3 +25,8 @@
     font-weight: 700;
     src: local('DS-Digital'), url(../fonts/DS-DIGIT.TTF) format('truetype')
 }
+
+@font-face {
+    font-family: "eurostile-extended-bold";
+    src: url(../fonts/EurostileExtendedBlack.ttf) format("truetype");
+}
