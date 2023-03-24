@@ -1,0 +1,33 @@
+.clock{
+    height: 400px;
+    width: 400px;
+}
+
+.clock__face{
+    fill: #222222;
+    stroke: #111111;
+    stroke-width: 2px;
+}
+
+.clock__hand{
+    stroke: #FFFFFF;
+    stroke-linecap: round;
+}
+
+#clock-hand-hours{
+}
+
+#clock-hand-minutes{
+}
+
+#clock-hand-seconds{
+}
+
+@keyframes animate-clock-hand {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
