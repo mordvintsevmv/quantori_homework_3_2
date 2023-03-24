@@ -16,6 +16,12 @@
 
 ---
 
+**Custom Clock Branch:** <a href="https://quantori-hw3-2-feature-custom.netlify.app" target="_blank">Open page</a>
+
+**Description:** *CASIO MTA-1000 watch design using SVG and JS.*
+
+---
+
 ## <a name="content">Content</a>
 
 1. [Task](#Task)
