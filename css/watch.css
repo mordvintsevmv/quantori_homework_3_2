@@ -9,7 +9,7 @@
 
     cursor: default;
 
-    font-family: "eurostile-extended-bold", sans-serif;
+    font-family: "eurostilebold_extended_2", sans-serif;
 }
 
 .watch__face {
@@ -24,19 +24,7 @@
 }
 
 .watch__digital-time {
-    font-family: 'DS-Digital', sans-serif;
-    font-weight: 700;
-
-}
-
-
-#watch-hand-hours {
-}
-
-#watch-hand-minutes {
-}
-
-#watch-hand-seconds {
+    font-family: 'ds-digitalbold', 'ds-digitalnormal', sans-serif;
 }
 
 @keyframes animate-watch-hand {

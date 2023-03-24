@@ -1,32 +1,24 @@
 @font-face {
-    font-family: 'DS-Digital';
+    font-family: 'ds-digitalnormal';
+    src: url('ds-digi-webfont.woff2') format('woff2'),
+    url('ds-digi-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    src: local('DS-Digital'), url(../fonts/DS-DIGI.TTF) format('truetype')
 }
 
 @font-face {
-    font-family: 'DS-Digital';
-    font-style: italic;
-    font-weight: 400;
-    src: local('DS-Digital'), url(../fonts/DS-DIGII.TTF) format('truetype')
-}
-
-@font-face {
-    font-family: 'DS-Digital';
+    font-family: 'ds-digitalbold';
+    src: url('ds-digib-webfont.woff2') format('woff2'),
+    url('ds-digib-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 700;
-    src: local('DS-Digital'), url(../fonts/DS-DIGIB.TTF) format('truetype')
 }
 
-@font-face {
-    font-family: 'DS-Digital';
-    font-style: italic;
-    font-weight: 700;
-    src: local('DS-Digital'), url(../fonts/DS-DIGIT.TTF) format('truetype')
-}
 
 @font-face {
-    font-family: "eurostile-extended-bold";
-    src: url(../fonts/EurostileExtendedBlack.ttf) format("truetype");
+    font-family: 'eurostilebold_extended_2';
+    src: url('eurostileextendedbold-webfont.woff2') format('woff2'),
+    url('eurostileextendedbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
