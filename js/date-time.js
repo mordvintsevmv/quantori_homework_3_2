@@ -5,7 +5,7 @@ const checkTime = () => {
     const minutes = date.getMinutes()
     const seconds = date.getSeconds()
 
-    document.getElementById('watch-digital-hm').textContent = hours + ":"  + minutes
+    document.getElementById('watch-digital-hm').textContent = minutes <  10 ? hours + ":0"  + minutes : hours + ":"  + minutes
     document.getElementById('watch-digital-seconds').textContent = seconds < 10 ? "0"+seconds : seconds
 
     setTimeout(checkTime, 1000)
