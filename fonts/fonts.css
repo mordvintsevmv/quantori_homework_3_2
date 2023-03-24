@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DS-Digital';
+    font-style: normal;
+    font-weight: 400;
+    src: local('DS-Digital'), url(../fonts/DS-DIGI.TTF) format('truetype')
+}
+
+@font-face {
+    font-family: 'DS-Digital';
+    font-style: italic;
+    font-weight: 400;
+    src: local('DS-Digital'), url(../fonts/DS-DIGII.TTF) format('truetype')
+}
+
+@font-face {
+    font-family: 'DS-Digital';
+    font-style: normal;
+    font-weight: 700;
+    src: local('DS-Digital'), url(../fonts/DS-DIGIB.TTF) format('truetype')
+}
+
+@font-face {
+    font-family: 'DS-Digital';
+    font-style: italic;
+    font-weight: 700;
+    src: local('DS-Digital'), url(../fonts/DS-DIGIT.TTF) format('truetype')
+}

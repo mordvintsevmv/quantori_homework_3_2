@@ -1,33 +1,50 @@
-.clock{
+.clock {
     height: 400px;
     width: 400px;
+
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    cursor: default;
+
+    font-family: sans-serif;
+
 }
 
-.clock__face{
+.clock__face {
     fill: #222222;
-    stroke: #111111;
-    stroke-width: 2px;
+    stroke: #C0C0C0;
+    stroke-width: 3px;
 }
 
-.clock__hand{
-    stroke: #FFFFFF;
+.clock__hand {
+    stroke: #C0C0C0;
     stroke-linecap: round;
 }
 
-#clock-hand-hours{
+.clock__digital-time {
+    font-family: 'DS-Digital', sans-serif;
+    font-weight: 700;
+
 }
 
-#clock-hand-minutes{
+
+#clock-hand-hours {
 }
 
-#clock-hand-seconds{
+#clock-hand-minutes {
+}
+
+#clock-hand-seconds {
 }
 
 @keyframes animate-clock-hand {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+    to {
         transform: rotate(360deg);
     }
 }

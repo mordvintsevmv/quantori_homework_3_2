@@ -47,11 +47,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
           rel="stylesheet">
 
+
     <!--STYLES-->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/null.css" rel="stylesheet" type="text/css">
     <link href="css/clock.css" rel="stylesheet" type="text/css">
     <link href="css/controls.css" rel="stylesheet" type="text/css">
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css">
 
     <title>Quantori Homework #3.2</title>
 </head>
@@ -59,26 +61,37 @@
 
 <div class="screen-wrapper">
 
-    <svg class="clock" viewBox="-100 -100 200 200">
+    <svg class="clock" id="clock" viewBox="-100 -100 200 200">
 
         <defs>
 
+            <line id="clock-12-stroke" x1="0" y1="-85" x2="0" y2="-95" stroke-width="2" fill="white" stroke="white"/>
+
+            <line id="clock-60-stroke" x1="0" y1="-80" x2="0" y2="-85" stroke-width="2" fill="#333333" stroke="#333333"/>
+
         </defs>
+
 
         <circle class="clock__face" r="98" cx="0" cy="0"/>
 
-        <g class="clock__date">
-            <rect x="65" y="-7" width="20" height="15" stroke="#383F42" stroke-width="1" fill="none"/>
-            <text id="clock-date-text" x="66" y="6" fill="#383F42" font-size="16px">00</text>
+        <text x="-7" y="-55" fill="#C0C0C0" font-size="5px">CASIO</text>
+        <text x="-5.2" y="-51" fill="#C0C0C0" font-size="3px">QUARTZ</text>
+
+        <g class="clock__digital-time">
+            <rect x="-30" y="40" width="60" height="15" stroke="#383F42" stroke-width="1" fill="#383F42"/>
+            <text id="clock-digital-hm" x="-15" y="53" fill="#111111" font-size="16px">0:00</text>
+            <text id="clock-digital-seconds" x="15" y="53" fill="#111111" font-size="12px">00</text>
         </g>
 
-        <line class="clock__hand" id="clock-hand-hours" x1="0" y1="0" x2="0" y2="-50"  stroke-width="4"/>
+        <line class="clock__hand" id="clock-hand-hours" x1="0" y1="0" x2="0" y2="-30"  stroke-width="4"/>
 
         <line class="clock__hand" id="clock-hand-minutes" x1="0" y1="0" x2="0" y2="-60" stroke-width="3"/>
 
-        <line class="clock__hand" id="clock-hand-seconds" x1="0" y1="0" x2="0" y2="-90" stroke-width="1"/>
+        <line class="clock__hand" id="clock-hand-seconds" x1="0" y1="0" x2="0" y2="-77" stroke-width="1"/>
 
-        <circle r="6" cx="0" cy="0" fill="white"/>
+        <circle r="4" cx="0" cy="0" fill="#C0C0C0"/>
+
+        <circle r="1" cx="0" cy="0" fill="black"/>
 
 
     </svg>
