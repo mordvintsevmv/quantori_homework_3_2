@@ -16,23 +16,45 @@
 
 ---
 
+**Custom Watch Branch:** <a href="https://quantori-hw3-2-feature-custom.netlify.app" target="_blank">Open page</a>
+
+**Description:** *CASIO MTA-1000 watch design using SVG and JS.*
+
+---
+
 ## <a name="content">Content</a>
 
 1. [Task](#Task)
 2. [Branches](#branches)
+    1. [Clock Animation Branch](#branches-animation)
+    2. [Custom Clock Branch](#branches-custom)
 3. [Contacts](#contacts)
 
 ---
 
 ## <a name="Task">Task</a>
 
-- [ ] You need to add animation to the hands on the clock to get the following result:
+- [X] You need to add animation to the hands on the clock to get the following result:
 
 ![task animation](readme-img/task-animation.gif)
 
 ---
 
 ## <a name="branches">Branches</a>
+
+### <a name="branches-animation">Clock Animation Branch</a>
+
+**Description:** *SVG clock animation.*
+
+![Clock Animation](readme-img/branches-animation.gif)
+
+---
+
+### <a name="branches-custom">Custom Watch Branch</a>
+
+**Description:** *CASIO MTA-1000 watch design using SVG and JS.*
+
+![Custom Watch](readme-img/branches-custom.gif)
 
 ---
 
