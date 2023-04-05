@@ -1,0 +1,37 @@
+.watch {
+    height: 400px;
+    width: 400px;
+
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    cursor: default;
+
+    font-family: "eurostilebold_extended_2", sans-serif;
+}
+
+.watch__face {
+    fill: #222222;
+    stroke: #C0C0C0;
+    stroke-width: 3px;
+}
+
+.watch__hand {
+    stroke: #C0C0C0;
+    stroke-linecap: round;
+}
+
+.watch__digital-time {
+    font-family: 'ds-digitalbold', 'ds-digitalnormal', sans-serif;
+}
+
+@keyframes animate-watch-hand {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

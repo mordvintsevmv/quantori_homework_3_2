@@ -26,8 +26,8 @@
 
 1. [Task](#Task)
 2. [Branches](#branches)
-   1. [Clock Animation Branch](#branches-animation)
-   2. [Custom Clock Branch](#branches-custom)
+    1. [Clock Animation Branch](#branches-animation)
+    2. [Custom Clock Branch](#branches-custom)
 3. [Contacts](#contacts)
 
 ---

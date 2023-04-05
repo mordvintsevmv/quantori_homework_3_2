@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta
             name="description"
-            content="Quantori Homework #3.2 by Maksim Mordvintsev. SVG clock animation."
+            content="Quantori Homework #3.2 by Maksim Mordvintsev. SVG watch animation."
     />
 
     <!--FAVICON-->
@@ -34,25 +34,66 @@
 
     <meta
             property="og:description"
-            content="SVG clock animation."
+            content="SVG watch animation."
     />
     <meta
             property="twitter:description"
-            content="SVG clock animation."
+            content="SVG watch animation."
     />
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
 
     <!--STYLES-->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/null.css" rel="stylesheet" type="text/css">
+    <link href="css/watch.css" rel="stylesheet" type="text/css">
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css">
 
     <title>Quantori Homework #3.2</title>
 </head>
 <body>
 
+<div class="screen-wrapper">
+
+    <svg xmlns="http://www.w3.org/2000/svg" id="watch" class="watch" version="1.1" viewBox="-100 -100 200 200">
+
+        <defs>
+            <line id="watch-12-stroke" x1="0" x2="0" y1="-85" y2="-95" fill="white" stroke="white" stroke-width="2"/>
+            <line id="watch-60-stroke" x1="0" x2="0" y1="-80" y2="-85" fill="#333333" stroke="#333333"
+                  stroke-width="2"/>
+        </defs>
+
+        <circle r="98" class="watch__face"/>
+
+        <g fill="#C0C0C0" class="watch__brand-text" dominant-baseline="middle" text-anchor="middle">
+            <text y="-55" font-size="5">CASIO</text>
+            <text y="-51" font-size="3">QUARTZ</text>
+            <text y="25" font-size="3">WATER RESIST
+            </text>
+        </g>
+
+        <g class="watch__digital-time">
+            <rect width="60" height="15" x="-30" y="40" fill="#383F42" stroke="#383F42"/>
+            <text id="watch-digital-hm" x="-23" y="53" fill="#111111" font-size="16">19:4</text>
+            <text id="watch-digital-seconds" x="15" y="53" fill="#111111" font-size="12">20</text>
+        </g>
+
+        <line id="watch-hand-hours" x1="0" x2="0" y1="0" y2="-30" stroke-width="4" class="watch__hand"/>
+        <line id="watch-hand-minutes" x1="0" x2="0" y1="0" y2="-50" stroke-width="3" class="watch__hand"/>
+        <line id="watch-hand-seconds" x1="0" x2="0" y1="0" y2="-77" stroke-width="1" class="watch__hand"/>
+
+        <circle r="4" fill="#C0C0C0"/>
+        <circle r="1" fill="black"/>
+
+    </svg>
+
+</div>
+
+<script src="js/date-time.js"></script>
 </body>
 </html>

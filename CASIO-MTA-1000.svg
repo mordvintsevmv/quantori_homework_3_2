@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="watch" class="watch" version="1.1" viewBox="-100 -100 200 200">
+    <defs>
+        <line id="watch-12-stroke" x1="0" x2="0" y1="-85" y2="-95" fill="#fff" stroke="#fff" stroke-width="2"/>
+        <line id="watch-60-stroke" x1="0" x2="0" y1="-80" y2="-85" fill="#333" stroke="#333" stroke-width="2"/>
+    </defs>
+    <circle r="98" stroke="silver" stroke-width="3" class="watch__face"/>
+    <g fill="silver" class="watch__brand-text" dominant-baseline="middle" text-anchor="middle">
+        <text y="-55" font-size="5">CASIO</text>
+        <text y="-51" font-size="3">QUARTZ</text>
+        <text y="25" font-size="3">WATER RESIST
+        </text>
+    </g>
+    <g class="watch__digital-time">
+        <rect width="60" height="15" x="-30" y="40" fill="#383F42" stroke="#383F42"/>
+        <text id="watch-digital-hm" x="-23" y="53" fill="#111" font-size="16">15:39</text>
+        <text id="watch-digital-seconds" x="15" y="53" fill="#111" font-size="12">53</text>
+    </g>
+    <g fill="silver" stroke="silver" stroke-linecap="round">
+        <line id="watch-hand-hours" x1="0" x2="0" y1="0" y2="-30" stroke-width="4" class="watch__hand"
+              transform="rotate(115 0 0)"/>
+        <line id="watch-hand-minutes" x1="0" x2="0" y1="0" y2="-60" stroke-width="3" class="watch__hand"
+              transform="rotate(235 0 0)"/>
+        <line id="watch-hand-seconds" x1="0" x2="0" y1="0" y2="-77" stroke-width="1" class="watch__hand"
+              transform="rotate(318 0 0)"/>
+    </g>
+    <circle r="4" fill="silver"/>
+    <circle r="1"/>
+    <use href="#watch-12-stroke"/>
+    <use href="#watch-60-stroke" transform="rotate(6 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(12 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(18 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(24 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(30 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(36 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(42 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(48 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(54 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(60 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(66 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(72 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(78 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(84 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(90 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(96 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(102 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(108 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(114 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(120 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(126 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(132 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(138 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(144 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(150 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(156 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(162 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(168 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(174 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(180 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(186 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(192 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(198 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(204 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(210 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(216 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(222 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(228 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(234 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(240 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(246 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(252 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(258 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(264 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(270 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(276 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(282 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(288 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(294 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(300 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(306 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(312 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(318 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(324 0 0)"/>
+    <use href="#watch-12-stroke" transform="rotate(330 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(336 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(342 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(348 0 0)"/>
+    <use href="#watch-60-stroke" transform="rotate(354 0 0)"/>
+</svg>
